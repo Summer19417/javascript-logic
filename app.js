@@ -9,29 +9,38 @@
 */
 
 // Addition (+)
-5 + 9;
+console.log(5 + 9); //14
 
-"one" + "one";
+console.log("one" + "one");"" // 'oneone'
 
 // Subtraction (-)
-8 - 20;
+console.log(8 - 20); //-12
 
 // Multiplication (*)
-2 * 0;
-
+console.log(2 * 0); //0
 // Division (/)
-15/50;
+console.log(15/50); //0.3
 
 // Modulus (%)
-5 % 2;
+console.log(5 % 2); //1
 
 // Increment (++)
-2++;
+//console.log(!false); //true
 
--1++;
+var a = 2;
+console.log(a++);
+console.log("increment", a);
+//console.log(-1++); //invalid 
+var b = -1
+console.log(b++);
+console.log(b);
 
 // Decrement (--)
-5--;
+//console.log(5--); //invalid 
+var c = 5
+console.log(c--);
+console.log(c);
+
 
 /*
 * Comparison Operators (These return a boolean value of true or false)
@@ -39,35 +48,35 @@
 */
 
 // Strict Equal (===)
-5 === "five";
+console.log(5 === 5); //it is now true
 
 // Not Equal (!==)
-5!== "five";
+console.log(5!== "five"); // true
 
 // Greater Than (>)
-5 > 10;
+console.log(5 < 10); //true
 
 // Less Than (<)
-"20" < 20;
+console.log(10 < 20); //true
 
 // Greater than or Equal to (>=)
-undefined >= null;
+console.log(null >= null); //true
 
-// Less than or Equal to (<=)
-null <= null; 
+// Less than or Equal to (<=)s
+console.log(null <= null); //true
 
 /*
 * Logical (or Relational) Operators
 */
 
 // And (&&) - If both the operands satisfy the statment, then the condition becomes true
-1 > 0 && 1 < 0;
+console.log(1 > 0 && 1 < 2); //true
 
 // Or (||) - If any of the two operands satisfy the statement, then the condition becomes true.
-2 > 0 || 2 > 20;
+console.log(2 > 0 || 2 > 0); //true 
 
 // Not (!) - Reverses the logical state of its operand.
-!true;
+console.log(!false); //true 
 
 /*
 * Conditionals
