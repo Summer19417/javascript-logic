@@ -56,6 +56,12 @@ console.log(5!== "five"); // true
 // Greater Than (>)
 console.log(5 < 10); //true
 console.log(a);
+console.log(a);
+console.log(a);
+console.log(a);
+console.log(a);
+
+
 // Less Than (<)
 console.log(10 < 20); //true
 
