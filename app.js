@@ -1,4 +1,4 @@
-/*
+/* 
 * What do these expressions evaluate to? 
 * Run your program in the terminal using the command `node app.js`
 * Check your answers using console.log();
